@@ -46,5 +46,56 @@
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
 
+    <div class="modal fade" id="dealTicket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="dealTicket_title" class="modal-title">Deal Ticket</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="ticket-panel">
+
+                        <input type="hidden" id="trade_direction" />
+                        <div class="ticket-buttons">
+                            <input type="hidden" id="trade_bid" />
+                            <button id="sell_button" class="btn btn-large btn-primary glowing-border-off" type="button">
+                                Sell <span id="ticket_sell_price">-</span>
+                            </button>
+
+                            &nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;
+
+                            <input type="hidden" id="trade_offer" />
+                            <button id="buy_button" class="btn btn-large btn-danger glowing-border-off" type="button">
+                                Buy <span id="ticket_buy_price">-</span>
+                            </button>
+                        </div>
+
+                        <div class="ticket-field">
+                            <input type="hidden" id="trade_epic" />
+                            <input type="hidden" id="trade_expiry" />
+                            <span class="ticket-field-label">Size</span> <input id="trade_size" type="text" value="1" />
+                        </div>
+
+                        <div class="ticket-field">
+                            <span class="ticket-field-label">Currency</span>
+                            <select id="trade_currency">
+                                <option value="GBP">GBP</option>
+                                <option value="EUR">EUR</option>
+                                <option value="USD">USD</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button id="place_trade_button" type="button" class="btn btn-success">Place Trade</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 </body>
 </html>
