@@ -1,31 +1,45 @@
 var users = []
 
+
 users = [ 
 {
 	userId: 1,
 	name: "John Doe",
-	image: "/images/employees/01.png"
+	image: "images/employees/01.png"
 },
 {
 	userId: 3,
 	name: "Nora Ghone",
-	image: "/images/employees/03.png"
+	image: "images/employees/03.png"
 },
 {
 	userId: 4,
 	name: "Dibby Jones",
-	image: "/images/employees/04.png"
+	image: "images/employees/04.png"
 }];
 
-$("#gridContainer").dxDataGrid({
-    dataSource: gridDataSource,
-    columns: ["name", "instrument.expiry", "snapshot.bid", "snapshot.offer",
-        {
-            dataField: "instrument",
-            name: "trade",
-            cellTemplate: function (container, options) {
-                createPopupLink(container, "Trade", options.data);
-            }
-        }
-    ]
+
+var gridDataSource = new DevExpress.data.ArrayStore({
+	data: users
+})
+
+$(function(){
+	$("#gridContainer").dxDataGrid({
+	    dataSource: gridDataSource,
+	    columns: [
+	        {
+	            dataField: "image",
+	            width: 100,
+	            allowFiltering: false,
+	            allowSorting: false,
+	            cellTemplate: function (container, options) {
+	                container.addClass("img-container");
+	                $("<img />")
+	                    .attr("src", options.value)
+	                    .appendTo(container);
+	            }
+	        },
+	        "name"
+	    ]
+	});
 });
