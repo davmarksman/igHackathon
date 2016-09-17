@@ -1,34 +1,13 @@
 
-
-var gridDataSource = new DevExpress.data.ArrayStore({
-	data: dataArray
-})
-
 $(function(){
+	var i = 1;
 
-
-	$("#gridContainer").dxDataGrid({
-	    dataSource: gridDataSource,
-	    paging: {
-	        pageSize: 20
-	    },
-	    pager: {
-	        showPageSizeSelector: true,
-	        allowedPageSizes: [5, 10, 20],
-	        showInfo: true
-	    },
-	    columns: [
-	    	"name", 
-            {
-                dataField: "poolId",
-                name: "Join",
-                cellTemplate: function (container, options) {
-                    createLink(container, "Join " + options.data.name, "/join?pool=" + options.data.poolId);
-                }
-            }
-	    ]
-	});
-
+	for(i = 0; i < 12; i++){
+		$("#btn" + i).children(".poolname").html(dataArray[i].name)
+		$("#btn" + i).children(".amount").html(dataArray[i].amount)
+		$("#btn" + i).children(".investors").html(dataArray[i].investors)
+		$("#btn" + i).children(".gain").html(dataArray[i].gain + "%")
+	}
 });
 
 function createLink(container, text, hyperlink) {
@@ -40,7 +19,7 @@ function createLink(container, text, hyperlink) {
 }
 
 function callbackFn(data){
-	dataArray.length =0;
+	dataArray.length = 0;
 	dataArray.push.apply(dataArray, data);
 
 	$("#gridContainer").dxDataGrid("instance").refresh();

@@ -10,6 +10,7 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="http://cdn3.devexpress.com/jslib/16.1.6/js/dx.all.js" ></script>
+	<script src="js/poolData.js"></script>
     <script src="js/pool.js"></script>
 </head>
 <body>
@@ -27,35 +28,96 @@
 
             <div class="container">
                 <div class="col-md-12">
+                   <button id="btn0" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                     <button id="btn1" class="col-md-5" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
                     	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
-                    <button id="btn2" class="col-md-7" type="button" style="background-color: rgb(52,168,83)"></button>
+                    <button id="btn2" class="col-md-3" type="button" style="background-color: rgb(52,168,83)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                 </div>
 
                 <div class="col-md-12">
-                 <button id="btn3" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                 <button id="btn4" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)"></button>
+                 <button id="btn3" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                 <button id="btn4" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                 </div>
 
                 <div class="col-md-12">
-                    <button id="btn5" class="col-md-2" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                    <button id="btn6" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                    <button id="btn7" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)"></button>
+                    <button id="btn5" class="col-md-2" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                    <button id="btn6" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                    <button id="btn7" class="col-md-6" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                 </div>
 
                 <div class="col-md-12">
-                    <button id="btn8" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                    <button id="btn9" class="col-md-8" type="button" style="background-color: rgb(0, 80, 95)"></button>
+                    <button id="btn8" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                    <button id="btn9" class="col-md-8" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                 </div>
                 <div class="col-md-12">
-                    <button id="btn10" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                    <button id="btn11" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)"></button>
-                    <button id="btn12" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)"></button>
+                    <button id="btn10" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                    <button id="btn11" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
+                    <button id="btn12" class="col-md-4" type="button" style="background-color: rgb(0, 80, 95)">
+                    	<span class="poolname"></span>
+                    	<span class="amount"></span>
+                    	<span class="investors"></span>
+                    	<span class="gain"></span>
+                    </button>
                 </div>
             </div>
-</body>
+	</body>
 </html>
