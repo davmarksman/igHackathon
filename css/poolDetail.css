@@ -5,3 +5,11 @@
 img {
     height: 100px;
 }
+
+.dx-row.dx-data-row .cell-red {
+    color: #DB3333;
+}
+
+.dx-row.dx-data-row .cell-green {
+    color: #01C605;
+}
