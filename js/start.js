@@ -13,6 +13,29 @@ var gridDataSource = new DevExpress.data.ArrayStore({
 $(function(){
 	$("#myModal").modal("show");
 
+	$('#place_trade_button').click(function () {
+	   placeTrade();
+	});
+
+
+	$('#sell_button').click(function () {
+	   $('#sell_button').addClass("glowing-border-on");
+	   $('#sell_button').removeClass("glowing-border-off");
+	   $('#buy_button').addClass("glowing-border-off");
+	   $('#buy_button').removeClass("glowing-border-on");
+
+	   $('#trade_direction').val("-");
+	});
+
+	$('#buy_button').click(function () {
+	   $('#buy_button').addClass("glowing-border-on");
+	   $('#buy_button').removeClass("glowing-border-off");
+	   $('#sell_button').addClass("glowing-border-off");
+	   $('#sell_button').removeClass("glowing-border-on");
+
+	   $('#trade_direction').val("+");
+	});
+
 //	$.ajax({
 //	    url: url
 //
@@ -56,6 +79,8 @@ $(function(){
 
 	    ]
 	});
+
+	getTrades();
 });
 
 function updateTable(data){
@@ -115,9 +140,11 @@ function createPopupLink(container, text, row) {
 	   	$('#dealTicket').modal('show');
 		$('#trade_epic').val(row.instrument.epic);
 		$('#trade_expiry').val(row.instrument.expiry);
-		$('#trade_size').val();
+		//$('#trade_size').val();
 		$('#trade_bid').val(row.snapshot.bid);
 		$('#trade_offer').val(row.snapshot.offer);
+		$('#ticket_buy_price').text(row.snapshot.offer);
+   		$('#ticket_sell_price').text(row.snapshot.bid);
 		//$('#trade_direction').val("-");
     })
 
@@ -234,6 +261,7 @@ function placeTrade() {
             // Prettify and log the response
             //$("#response_data").text(js_beautify(data.responseText) || "");
             console.log("order placed");
+            alert("order placed: " + response.dealReference);
             resultData = response;
          }
       });
@@ -244,30 +272,7 @@ function placeTrade() {
    // If the deal was placed, wait for the deal confirmation
    if (resultData) {
       console.log(resultData);
-      showDealInProgressDialog(resultData);
    }
 }
 
 
-$('#place_trade_button').click(function () {
-   placeTrade();
-});
-
-
-$('#sell_button').click(function () {
-   $('#sell_button').addClass("glowing-border-on");
-   $('#sell_button').removeClass("glowing-border-off");
-   $('#buy_button').addClass("glowing-border-off");
-   $('#buy_button').removeClass("glowing-border-on");
-
-   $('#trade_direction').val("-");
-});
-
-$('#buy_button').click(function () {
-   $('#buy_button').addClass("glowing-border-on");
-   $('#buy_button').removeClass("glowing-border-off");
-   $('#sell_button').addClass("glowing-border-off");
-   $('#sell_button').removeClass("glowing-border-on");
-
-   $('#trade_direction').val("+");
-});
