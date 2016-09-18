@@ -1,47 +1,17 @@
 var users = []
 
-users = [ 
-{
-	userId: 1,
-	name: "John Doe",
-	image: "images/employees/01.png",
-	rep: 100,
-	tradingLimit: 15,
-	gain: 2,
-	invested: "£200"
-},
-{
-	userId: 2,
-	name: "Peter Rogers",
-	image: "images/employees/02.png",
-	rep: 31,
-	tradingLimit: 10,
-	gain: 6,
-	invested: "£300"
-},
-{
-	userId: 3,
-	name: "Dibby Jones",
-	image: "images/employees/03.png",
-	rep: 149,
-	tradingLimit: 40,
-	gain: 20,
-	invested: "£400"
-},
-{
-	userId: 4,
-	name: "Nora Ghone",
-	image: "images/employees/04.png",
-	rep: 290,
-	tradingLimit: 35,
-	gain: -2,
-	invested: "£300"
-}];
-
+var url = window.location.href;
+var index = getValueAtEnd(window.location.href);
+var users = dataArray[index].users;
 
 var gridDataSource = new DevExpress.data.ArrayStore({
 	data: users
 })
+
+function getValueAtEnd(str){
+	var split = str.split("/")
+    return split[split.length-1];
+}
 
 $(function(){
 	$("#gridContainer").dxDataGrid({

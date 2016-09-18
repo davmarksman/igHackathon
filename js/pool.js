@@ -22,6 +22,10 @@ $(function(){
 	$('#market_down').click(function () {;
 		showResultModal("Sorry. Maybe next time.");
 	});
+
+	$("#btn0").on("click", function(){
+		window.location.href='poolDetails.html?id=1'
+	})
 });
 
 function createLink(container, text, hyperlink) {
@@ -41,7 +45,8 @@ function callbackFn(data){
 }
 
 function showResultModal(text) {
-		$("#myModal").modal("hide");
-		$("#txtResult").html(text);
-		$("#resultModal").modal("show");
-	}
+	$("#myModal").modal("hide");
+	$("#txtResult").html(text);
+	$("#resultModal").modal("show");
+}
+
