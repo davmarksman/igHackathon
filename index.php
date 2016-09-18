@@ -61,7 +61,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1><?php echo "Hello World!"; ?></h1>
+            <h1>Millistone</h1>
             <h3>Free Bootstrap Themes &amp; Templates</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Join Us</a>
