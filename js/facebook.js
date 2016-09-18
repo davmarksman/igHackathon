@@ -8,7 +8,7 @@
     // for FB.getLoginStatus().
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
-      window.location.href='pool.html';
+      window.location.href='Pool.html';
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
       $('#loading-text').html('Please log into this app.');

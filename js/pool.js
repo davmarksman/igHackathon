@@ -24,40 +24,40 @@ $(function(){
 	});
 
 	$("#btn0").on("click", function(){
-		window.location.href='poolDetails.html?id=0';
+		window.location.href='PoolDetails.html?id=0';
 	});
 	$("#btn1").on("click", function(){
-		window.location.href='poolDetails.html?id=1';
+		window.location.href='PoolDetails.html?id=1';
 	});
 	$("#btn2").on("click", function(){
-		window.location.href='poolDetails.html?id=2';
+		window.location.href='PoolDetails.html?id=2';
 	});
 	$("#btn3").on("click", function(){
-		window.location.href='poolDetails.html?id=3';
+		window.location.href='PoolDetails.html?id=3';
 	});
 	$("#btn4").on("click", function(){
-		window.location.href='poolDetails.html?id=4';
+		window.location.href='PoolDetails.html?id=4';
 	});
 	$("#btn5").on("click", function(){
-		window.location.href='poolDetails.html?id=5';
+		window.location.href='PoolDetails.html?id=5';
 	});
 	$("#btn6").on("click", function(){
-		window.location.href='poolDetails.html?id=6';
+		window.location.href='PoolDetails.html?id=6';
 	});
 	$("#btn7").on("click", function(){
-		window.location.href='poolDetails.html?id=7';
+		window.location.href='PoolDetails.html?id=7';
 	});
 	$("#btn8").on("click", function(){
-		window.location.href='poolDetails.html?id=8';
+		window.location.href='PoolDetails.html?id=8';
 	});
 	$("#btn9").on("click", function(){
-		window.location.href='poolDetails.html?id=9';
+		window.location.href='PoolDetails.html?id=9';
 	});
 	$("#btn10").on("click", function(){
-		window.location.href='poolDetails.html?id=10';
+		window.location.href='PoolDetails.html?id=10';
 	});
 	$("#btn11").on("click", function(){
-		window.location.href='poolDetails.html?id=11';
+		window.location.href='PoolDetails.html?id=11';
 	});
 	$("#btnCreatePool").on("click", function(){
 		showResultModal("Sorry this function is not yet here.");

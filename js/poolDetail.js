@@ -52,10 +52,10 @@ $(function(){
 	});
 
 	$("#btnModalTrade").click(function(){
-		window.location.href='trade.html';
+		window.location.href='Trade.html';
 	});
 	$("#btnTrade").click(function(){
-		window.location.href='trade.html';
+		window.location.href='Trade.html';
 	});
 });
 
