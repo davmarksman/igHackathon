@@ -64,11 +64,7 @@
             <h1><?php echo "Hello World!"; ?></h1>
             <h3>Free Bootstrap Themes &amp; Templates</h3>
             <br>
-<<<<<<< HEAD
             <a href="#about" class="btn btn-dark btn-lg">Join Us</a>
-=======
-            <a href="https://millistones.herokuapp.com/login.html" class="btn btn-dark btn-lg">Join Us</a>
->>>>>>> 8487e68151b0f8fffd3186cc3cdf97b0b2a263ca
         </div>
     </header>
 
@@ -80,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                 
-                    <h2>Social Trading</h2>
+                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
                     <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
                 </div>
             </div>
@@ -108,11 +104,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-<<<<<<< HEAD
                             </div>
-=======
-                             </div>
->>>>>>> 8487e68151b0f8fffd3186cc3cdf97b0b2a263ca
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -124,11 +116,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-<<<<<<< HEAD
                             </div>
-=======
-                             </div>
->>>>>>> 8487e68151b0f8fffd3186cc3cdf97b0b2a263ca
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -152,11 +140,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-<<<<<<< HEAD
                             </div>
-=======
-                             </div>
->>>>>>> 8487e68151b0f8fffd3186cc3cdf97b0b2a263ca
                         </div>
                     </div>
                     <!-- /.row (nested) -->
