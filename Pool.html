@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta charset="UTF-8">
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  
@@ -30,13 +31,11 @@
                    <button id="btn0" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn1" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btnCreatePool" class="col-md-4" type="button" style="background-color: rgb(52,168,83)">
@@ -48,13 +47,11 @@
                  <button id="btn3" class="col-md-6 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                  <button id="btn4" class="col-md-6 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                 </div>
@@ -63,19 +60,16 @@
                     <button id="btn5" class="col-md-2 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn6" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn7" class="col-md-6 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                 </div>
@@ -84,13 +78,11 @@
                     <button id="btn8" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn9" class="col-md-8 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                 </div>
@@ -98,19 +90,16 @@
                     <button id="btn10" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn11" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                     <button id="btn2" class="col-md-4 pool" type="button" style="background-color: rgb(0, 80, 95)">
                     	<span class="poolname"></span>
                     	<span class="amount"></span>
-                    	<span class="investors"></span>
                     	<span class="gain"></span>
                     </button>
                 </div>
@@ -128,14 +117,24 @@
 		        <h4 class="modal-title modalText">Market</h4>
 		      </div>
 		      <div class="modal-body">
-		        <p class="modalText">The question &hellip;</p>
+		        <p class="modalText">The UK has left the EU. What do you think I will happen to the FTSE&hellip;</p>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">I don't care</button>
-		        <button id="market_up" type="button" class="btn btn-primary">It's going up</button>
-		        <button id="market_ok" type="button" class="btn btn-primary">Nothing is going to change</button>
-		        <button id="market_down" type="button" class="btn btn-primary">Definitely Down</button>
-		        <a href="Trade.html" class="btn btn-primary">I want to trade this</a>
+		      	<div class="row">
+		        	<button type="button" class="btn btn-default btn-block" data-dismiss="modal">I don't care</button>
+		        </div>
+		        <div class="row">
+		        	<button id="market_up" type="button" class="btn btn-primary btn-block">It's going up</button>
+		        </div>
+		        <div class="row">
+		        	<button id="market_ok" type="button" class="btn btn-primary btn-block">Nothing is going to change</button>
+		        </div>
+		        <div class="row">
+		        	<button id="market_down" type="button" class="btn btn-primary btn-block">Definitely Down</button>
+		        </div>
+		        <div class="row">
+		        	<a href="Trade.html" class="btn btn-success btn-block">I want to trade this</a>
+		        </div>
 		      </div>
 		    </div><!-- /.modal-content -->
 		  </div><!-- /.modal-dialog -->

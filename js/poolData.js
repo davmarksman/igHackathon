@@ -10,7 +10,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -19,7 +19,7 @@ dataArray = [{
         name: "Peter Rogers",
         image: "images/employees/02.png",
         rep: 31,
-        tradingLimit: 10,
+        tradingLimit: "10%",
         gain: 6,
         invested: "£300"
     },
@@ -28,7 +28,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -37,7 +37,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -53,7 +53,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -62,7 +62,7 @@ dataArray = [{
         name: "Peter Rogers",
         image: "images/employees/02.png",
         rep: 31,
-        tradingLimit: 10,
+        tradingLimit: "10%",
         gain: 6,
         invested: "£300"
     }]
@@ -78,7 +78,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -87,7 +87,7 @@ dataArray = [{
         name: "Peter Rogers",
         image: "images/employees/02.png",
         rep: 31,
-        tradingLimit: 10,
+        tradingLimit: "10%",
         gain: 6,
         invested: "£300"
     },
@@ -96,7 +96,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -105,7 +105,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -121,7 +121,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     }]
@@ -137,7 +137,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -146,7 +146,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -155,7 +155,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -171,7 +171,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -180,7 +180,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -196,7 +196,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -205,7 +205,7 @@ dataArray = [{
         name: "Peter Rogers",
         image: "images/employees/02.png",
         rep: 31,
-        tradingLimit: 10,
+        tradingLimit: "10%",
         gain: 6,
         invested: "£300"
     },
@@ -214,7 +214,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -223,7 +223,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     },
@@ -232,7 +232,7 @@ dataArray = [{
         name: "Nora Ghone2",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -248,7 +248,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -257,7 +257,7 @@ dataArray = [{
         name: "Dibby Jones",
         image: "images/employees/03.png",
         rep: 149,
-        tradingLimit: 40,
+        tradingLimit: "40%",
         gain: 20,
         invested: "£400"
     },
@@ -266,7 +266,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -282,7 +282,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -291,7 +291,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -307,7 +307,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     },
@@ -316,7 +316,7 @@ dataArray = [{
         name: "Nora Ghone",
         image: "images/employees/04.png",
         rep: 290,
-        tradingLimit: 35,
+        tradingLimit: "35%",
         gain: -2,
         invested: "£300"
     }]
@@ -332,7 +332,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     }]
@@ -348,7 +348,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     }]
@@ -364,7 +364,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     }]
@@ -380,7 +380,7 @@ dataArray = [{
         name: "John Doe",
         image: "images/employees/01.png",
         rep: 100,
-        tradingLimit: 15,
+        tradingLimit: "15%",
         gain: 2,
         invested: "£200"
     }]

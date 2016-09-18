@@ -11,15 +11,15 @@ $(function(){
 
 	setTimeout(function(){ 
 		$("#myModal").modal("show");
-	}, 2 * 1000);
+	}, 10 * 1000);
 
-	$('#market_up').click(function () {;
+	$('#market_down').click(function () {;
 		showResultModal("Well done. +1 Rep!");
 	});
 	$('#market_ok').click(function () {;
 		showResultModal("Safe bet. But wrong this time.");
 	});
-	$('#market_down').click(function () {;
+	$('#market_up').click(function () {;
 		showResultModal("Sorry. Maybe next time.");
 	});
 

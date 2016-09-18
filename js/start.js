@@ -12,10 +12,6 @@ var gridDataSource = new DevExpress.data.ArrayStore({
 
 $(function(){
 
-	$('#place_trade_button').click(function () {
-	   placeTrade();
-	});
-
 
 	$('#sell_button').click(function () {
 	   $('#sell_button').addClass("glowing-border-on");
@@ -24,6 +20,7 @@ $(function(){
 	   $('#buy_button').removeClass("glowing-border-on");
 
 	   $('#trade_direction').val("-");
+	   placeTrade();
 	});
 
 	$('#buy_button').click(function () {
@@ -33,6 +30,7 @@ $(function(){
 	   $('#sell_button').removeClass("glowing-border-on");
 
 	   $('#trade_direction').val("+");
+	   	   placeTrade();
 	});
 
 //	$.ajax({
@@ -67,7 +65,17 @@ $(function(){
 	        allowedPageSizes: [5, 10, 20],
 	        showInfo: true
 	    },
-	    columns: ["instrument.name", "instrument.expiry", "snapshot.bid", "snapshot.offer",
+	    columns: ["instrument.name", "instrument.expiry",
+	        {
+                dataField: "snapshot.bid",
+                caption: "Bid",
+                cellTemplate: greenCellTemplate,
+            },
+	        {
+                dataField: "snapshot.offer",
+                caption: "Offer",
+                cellTemplate: redCellTemplate,
+            },
             {
                 dataField: "instrument",
                 name: "trade",
@@ -81,6 +89,18 @@ $(function(){
 
 	getTrades();
 });
+
+function greenCellTemplate(container, options) {
+    container.html(options.text);
+	container.addClass("cell-green");
+}
+
+function redCellTemplate(container, options) {
+    container.html(options.text);
+container.addClass("cell-red");
+
+}
+
 
 function updateTable(data){
 	dataArray.length =0;
@@ -191,7 +211,7 @@ function placeTrade() {
    bodyParams["currencyCode"] = "GBP";
    bodyParams["epic"] = trade.epic;
    bodyParams["expiry"] = trade.expiry;
-   bodyParams["direction"] = trade.direction; //(direction == "+" ? "BUY" : "SELL");
+   bodyParams["direction"] = (trade.direction == "+" ? "BUY" : "SELL");
    bodyParams["size"] = trade.size;
    bodyParams["forceOpen"] = false;
    bodyParams["guaranteedStop"] = false;
@@ -222,12 +242,13 @@ function placeTrade() {
             // Prettify and log the response
             //$("#response_data").text(js_beautify(data.responseText) || "");
             console.log("order placed");
-            alert("order placed: " + response.dealReference);
+			$("#joinModal").modal("show");
+			$("#txtResult").html("Order placed: " + response.dealReference);
             resultData = response;
          }
       });
    } catch (e) {
-      handleException(e);
+      alert(e);
    }
 
    // If the deal was placed, wait for the deal confirmation
