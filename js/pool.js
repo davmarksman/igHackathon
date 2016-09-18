@@ -9,20 +9,6 @@ $(function(){
 		$("#btn" + i).children(".gain").html(dataArray[i].gain + "%");
 	}
 
-	setTimeout(function(){ 
-		$("#myModal").modal("show");
-	}, 10 * 1000);
-
-	$('#market_down').click(function () {;
-		showResultModal("Well done. +1 Rep!");
-	});
-	$('#market_ok').click(function () {;
-		showResultModal("Safe bet. But wrong this time.");
-	});
-	$('#market_up').click(function () {;
-		showResultModal("Sorry. Maybe next time.");
-	});
-
 	$("#btn0").on("click", function(){
 		window.location.href='PoolDetails.html?id=0';
 	});
@@ -78,11 +64,5 @@ function callbackFn(data){
 
 	$("#gridContainer").dxDataGrid("instance").refresh();
 	console.log(data);
-}
-
-function showResultModal(text) {
-	$("#myModal").modal("hide");
-	$("#txtResult").html(text);
-	$("#resultModal").modal("show");
 }
 
