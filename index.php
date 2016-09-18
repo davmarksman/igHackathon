@@ -92,7 +92,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1><?php echo "Millistone!"; ?></h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <h3>Social Trading</h3>
             <br>
             <a href="https://millistones.herokuapp.com/login.html" class="btn btn-dark btn-lg">Join Us</a>
         </div>
@@ -127,9 +127,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item"><img src="img/947308_10151384605132466_1352613556_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Justin Grierson</strong>
+                                    <strong>David Mark</strong>
                               </h4>
-                                <p>Web dev and and dev</p>
+                                <p>developer at hedge fund</p>
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -137,7 +137,7 @@
                                 <h4>
                                     <strong>Lincoln Dauda</strong>
                               </h4>
-                                <p>Retail Day Trader</p>
+                                <p>Retail Day Trader - Economics Uni student</p>
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -152,7 +152,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item"><img src="img/10361306_10153122359295850_3303129407808000074_n.jpg" width="99" height="112" alt=""/>
                                 <h4><strong>Mark Brown</strong></h4>
-                                <p>Web dev and and dev</p>
+                                <p>UX design</p>
                           </div>
                         </div>
                       <div class="col-md-3 col-sm-6">
