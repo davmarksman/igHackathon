@@ -84,6 +84,14 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+  
+  $uid = $facebook->getUser();
+
+//create the url
+$profile_pic =  "http://graph.facebook.com/".$uid."/picture";
+
+//echo the image out
+echo "<img src=\"" . $profile_pic . "\" />";
 </script>
 
 <!--
@@ -134,13 +142,7 @@ if ($mysqli->connect_errno) {
 
 
 
-$uid = $facebook->getUser();
 
-//create the url
-$profile_pic =  "http://graph.facebook.com/".$uid."/picture";
-
-//echo the image out
-echo "<img src=\"" . $profile_pic . "\" />";
 ?>
 
 rest123
