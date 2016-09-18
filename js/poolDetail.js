@@ -43,9 +43,19 @@ $(function(){
                 dataField: "gain",
                 caption: "Pool Performance",
                 cellTemplate: diffcellTemplate,
-            },
-
+            }
 	    ]
+	});
+
+	$("#btnJoin").click(function(){
+		$("#joinModal").modal("show");
+	});
+
+	$("#btnModalTrade").click(function(){
+		window.location.href='trade.html';
+	});
+	$("#btnTrade").click(function(){
+		window.location.href='trade.html';
 	});
 });
 
@@ -58,3 +68,6 @@ function diffcellTemplate(container, options) {
         container.addClass("cell-red");
     }
 }
+
+
+

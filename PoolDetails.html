@@ -36,8 +36,28 @@
 
          <div class="row">
             <div class="col-md-4"></div> 
-            <div class="col-md-2"><button type="button" class="btn btn-primary">Join</button></div> 
-            <div class="col-md-2"><button type="button" class="btn btn-primary">Trade</button></div>  
+            <div class="col-md-2"><button id="btnJoin" type="button" class="btn btn-primary">Join</button></div>
+            <div class="col-md-2"><button id="btnTrade" type="button" class="btn btn-primary">Trade</button></div>  
         </div>
+
+                <!-- Result Modal -->
+        <div class="modal fade" id="joinModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Result!</h4>
+              </div>
+              <div class="modal-body">
+                <p id="txtResult" class="modalText">Normally you will have to be accepted into the Pool. But this is a demo so ...</p>
+              </div>
+              <div class="modal-footer">
+                <button id="btnModalTrade" type="button" class="btn btn-default" data-dismiss="modal">Trade Now</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 	</body>
 </html>
