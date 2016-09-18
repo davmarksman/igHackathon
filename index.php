@@ -92,7 +92,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1><?php echo "Millistone!"; ?></h1>
-            <h3>Social Trading</h3>
+            <h3>Millistone is the 1st of its kind in social personal finance.</h3>
             <br>
             <a href="https://millistones.herokuapp.com/login.html" class="btn btn-dark btn-lg">Join Us</a>
         </div>
@@ -106,8 +106,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                 
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>A social platform to help and totally new and talented traders</h2>
+                    <p class="lead">&nbsp;</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -176,7 +176,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1>The team that will help you win</h1>
         </div>
     </aside>
 
