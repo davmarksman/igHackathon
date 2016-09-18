@@ -3,6 +3,36 @@
 
 <head>
 
+  <style type="text/css">
+    div.circle-avatar{
+    /* make it responsive */
+    max-width: 20%;
+    width:20%;
+    height:auto;
+    display:block;
+    /* div height to be the same as width*/
+    padding-top:20%;
+    
+    /* make it a cirkle */
+    border-radius:50%;
+    
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+  </style>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
