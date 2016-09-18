@@ -125,7 +125,7 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
+                            <div class="service-item"><img src="img/947308_10151384605132466_1352613556_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
                                     <strong>Justin Grierson</strong>
                               </h4>
@@ -133,18 +133,25 @@
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
+                            <div class="service-item"><img src="img/AAEAAQAAAAAAAAhcAAAAJDllMTIwM2EzLWY1ZTEtNGM3ZC1iMjg1LTFjMWIzOWJjMWNkYw.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Justin Grierson</strong>
+                                    <strong>Lincoln Dauda</strong>
                               </h4>
-                                <p>Web dev and and dev</p>
+                                <p>Retail Day Trader</p>
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
+                            <div class="service-item"><img src="img/AAEAAQAAAAAAAAhcAAAAJDllMTIwM2EzLWY1ZTEtNGM3ZC1iMjg1LTFjMWIzOWJjMWNkYw.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Justin Grierson</strong>
+                                    <strong>Lincoln Dauda</strong>
                               </h4>
+                                <p>Retail Day Trader</p>
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item"><img src="img/10361306_10153122359295850_3303129407808000074_n.jpg" width="99" height="112" alt=""/>
+                                <h4><strong>Mark Brown</strong></h4>
                                 <p>Web dev and and dev</p>
                           </div>
                         </div>
@@ -153,7 +160,7 @@
                                 <h4>
                                     <strong>Justin Grierson</strong>
                               </h4>
-                                <p>Web dev and and dev</p>
+                                <p>Web dev and app dev</p>
                           </div>
                         </div>
                     </div>
