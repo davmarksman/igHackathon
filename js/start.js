@@ -47,8 +47,8 @@ $(function(){
 
 	function showResultModal(text) {
 		$("#myModal").modal("hide");
-		$("#txtResult").html(text);
-		$("#resultModal").modal("show");
+		$("#txtRepResult").html(text);
+		$("#repModal").modal("show");
 	}
 
 
