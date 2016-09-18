@@ -64,7 +64,7 @@
             <h1>Millistone</h1>
             <h3>Free Bootstrap Themes &amp; Templates</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Join Us</a>
+            <a href="https://millistones.herokuapp.com/login.html" class="btn btn-dark btn-lg">Join Us</a>
         </div>
     </header>
 
