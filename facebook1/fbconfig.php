@@ -14,7 +14,8 @@ use Facebook\Entities\AccessToken;
 use Facebook\HttpClients\FacebookCurlHttpClient;
 use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
-FacebookSession::setDefaultApplication( 'Your APP ID','Your APP Secret' );
+FacebookSession::setDefaultApplication( '301809796851119','
+a974367187e255a3714f638ed377f158' );
 // login helper with redirect_uri
     $helper = new FacebookRedirectLoginHelper('http://demos.krizna.com/1353/fbconfig.php' );
 try {
