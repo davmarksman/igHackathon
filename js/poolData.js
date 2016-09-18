@@ -4,10 +4,13 @@ dataArray = [{
     amount: "£311,118",
     investors: 118,
     gain: 15,
+
+    
+// Justin Grierson, David Mark, Mark Brown, Lincoln Dauda
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -16,7 +19,7 @@ dataArray = [{
     },
     {
         userId: 2,
-        name: "Peter Rogers",
+        name: "David Mark",
         image: "images/employees/02.png",
         rep: 31,
         tradingLimit: "10%",
@@ -25,7 +28,7 @@ dataArray = [{
     },
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -34,7 +37,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -50,7 +53,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -59,7 +62,7 @@ dataArray = [{
     },
     {
         userId: 2,
-        name: "Peter Rogers",
+        name: "David Mark",
         image: "images/employees/02.png",
         rep: 31,
         tradingLimit: "10%",
@@ -75,7 +78,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -84,7 +87,7 @@ dataArray = [{
     },
     {
         userId: 2,
-        name: "Peter Rogers",
+        name: "David Mark",
         image: "images/employees/02.png",
         rep: 31,
         tradingLimit: "10%",
@@ -93,7 +96,7 @@ dataArray = [{
     },
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -102,7 +105,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -118,7 +121,7 @@ dataArray = [{
     users: [
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -134,7 +137,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -143,7 +146,7 @@ dataArray = [{
     },
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -152,7 +155,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -168,7 +171,7 @@ dataArray = [{
     users: [ 
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -177,7 +180,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -193,7 +196,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -202,7 +205,7 @@ dataArray = [{
     },
     {
         userId: 2,
-        name: "Peter Rogers",
+        name: "David Mark",
         image: "images/employees/02.png",
         rep: 31,
         tradingLimit: "10%",
@@ -211,7 +214,7 @@ dataArray = [{
     },
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -220,7 +223,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -245,7 +248,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -254,7 +257,7 @@ dataArray = [{
     },
     {
         userId: 3,
-        name: "Dibby Jones",
+        name: "Mark Brown",
         image: "images/employees/03.png",
         rep: 149,
         tradingLimit: "40%",
@@ -263,7 +266,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -279,7 +282,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -288,7 +291,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -304,7 +307,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -313,7 +316,7 @@ dataArray = [{
     },
     {
         userId: 4,
-        name: "Nora Ghone",
+        name: "Lincoln Dauda",
         image: "images/employees/04.png",
         rep: 290,
         tradingLimit: "35%",
@@ -329,7 +332,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -345,7 +348,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -361,7 +364,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",
@@ -377,7 +380,7 @@ dataArray = [{
     users: [ 
     {
         userId: 1,
-        name: "John Doe",
+        name: "Justin Grierson",
         image: "images/employees/01.png",
         rep: 100,
         tradingLimit: "15%",

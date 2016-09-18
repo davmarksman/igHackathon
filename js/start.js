@@ -11,7 +11,19 @@ var gridDataSource = new DevExpress.data.ArrayStore({
 })
 
 $(function(){
+	setTimeout(function(){ 
+		$("#myModal").modal("show");
+	}, 1 * 1000);
 
+	$('#market_down').click(function () {;
+		showResultModal("Well done. +1 Rep!");
+	});
+	$('#market_ok').click(function () {;
+		showResultModal("Safe bet. But wrong this time.");
+	});
+	$('#market_up').click(function () {;
+		showResultModal("Sorry. Maybe next time.");
+	});
 
 	$('#sell_button').click(function () {
 	   $('#sell_button').addClass("glowing-border-on");
@@ -32,6 +44,13 @@ $(function(){
 	   $('#trade_direction').val("+");
 	   	   placeTrade();
 	});
+
+	function showResultModal(text) {
+		$("#myModal").modal("hide");
+		$("#txtRepResult").html(text);
+		$("#repModal").modal("show");
+	}
+
 
 //	$.ajax({
 //	    url: url

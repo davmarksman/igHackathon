@@ -71,3 +71,11 @@ h1, h3{
 .dx-header-row{
     color: white;
 }
+
+.modalText{
+    color:black;
+}
+
+.btn-block{
+  border-radius: 0 !important;
+}
