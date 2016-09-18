@@ -132,6 +132,15 @@ if ($mysqli->connect_errno) {
     die();
 } */
 
+
+
+$uid = $facebook->getUser();
+
+//create the url
+$profile_pic =  "http://graph.facebook.com/".$uid."/picture";
+
+//echo the image out
+echo "<img src=\"" . $profile_pic . "\" />";
 ?>
 
 rest123
