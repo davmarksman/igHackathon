@@ -121,8 +121,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                           <div class="circle-avatar" style="background-image:url(http://placekitten.com/g/400/200)">
+       
+        </div>
                             </span>
                                 <h4>
                                     <strong>Service Name</strong>
