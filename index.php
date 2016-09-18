@@ -104,8 +104,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -117,8 +116,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -130,8 +128,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -143,8 +140,7 @@
                                     <strong>Service Name</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
