@@ -125,48 +125,36 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
+                                    <strong>Justin Grierson</strong>
+                              </h4>
+                                <p>Web dev and and dev</p>
+                          </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Justin Grierson</strong>
                               </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Web dev and and dev</p>
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
+                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
+                                    <strong>Justin Grierson</strong>
+                              </h4>
+                                <p>Web dev and and dev</p>
+                          </div>
+                        </div>
+                      <div class="col-md-3 col-sm-6">
+                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
+                                <h4>
+                                    <strong>Justin Grierson</strong>
+                              </h4>
+                                <p>Web dev and and dev</p>
+                          </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
