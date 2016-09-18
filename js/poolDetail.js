@@ -2,6 +2,9 @@ var users = []
 
 var url = window.location.href;
 var index = getValueAtEnd(window.location.href);
+if(!index){
+	index = 0;
+}
 var users = dataArray[index].users;
 
 var gridDataSource = new DevExpress.data.ArrayStore({
@@ -9,7 +12,7 @@ var gridDataSource = new DevExpress.data.ArrayStore({
 })
 
 function getValueAtEnd(str){
-	var split = str.split("/")
+	var split = str.split("=")
     return split[split.length-1];
 }
 
