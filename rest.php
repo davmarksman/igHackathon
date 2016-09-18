@@ -99,7 +99,7 @@ echo "<img src=\"" . $profile_pic . "\" />";
   the JavaScript SDK to present a graphical Login button that triggers
   the FB.login() function when clicked.
 -->
-
+<img src="https://graph.facebook.com/<?php echo $_SESSION['USERNAME']; ?>/picture">
 <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
 
