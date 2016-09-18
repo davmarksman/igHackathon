@@ -78,3 +78,40 @@ p {
 .modalText{
 	color:black;
 }
+
+.btn-block{
+  border-radius: 0 !important;
+}
+
+	.poolname	{
+		color:#000;
+		padding-bottom:20px;
+		font-size:24px;
+	}
+	.gain{
+		position:absolute;
+		color:#3F3;
+		font-size:24px;
+		right: 5px;
+    	bottom: 5px;
+	}
+.amount{
+		position:absolute;
+	font-size:24px;
+	color:#999;
+		left: 5px;
+    	bottom: 5px;
+	}	
+
+	
+	
+	.col-md-5	{
+		background-color:#FFF;
+		border: solid #333 1px;
+	}
+
+	.create{
+				color:white;
+		padding-bottom:20px;
+		font-size:24px;
+	}

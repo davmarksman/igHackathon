@@ -48,6 +48,26 @@ p {
     color: #FFFFFF;
 }
 
+h1, h3{
+    color: white;
+}
+
 .dx-datagrid-table-fixed .dx-row.dx-group-row td {
     background-color: #961023;
+}
+
+.ticket-field{
+    padding:10px;
+}
+
+.modal-title{
+    color:black;
+}
+
+.cancel_button{
+    padding-left: 30px;
+}
+
+.dx-header-row{
+    color: white;
 }

@@ -6,6 +6,9 @@ if(!index){
 	index = 0;
 }
 var users = dataArray[index].users;
+var poolName = dataArray[index].name;
+var poolAmount = dataArray[index].amount;
+
 
 var gridDataSource = new DevExpress.data.ArrayStore({
 	data: users
@@ -17,6 +20,8 @@ function getValueAtEnd(str){
 }
 
 $(function(){
+	$("#poolHeader").html(poolName + " - " + poolAmount);
+
 	$("#gridContainer").dxDataGrid({
 	    dataSource: gridDataSource,
 	    columns: [
@@ -32,8 +37,9 @@ $(function(){
 	                    .appendTo(container);
 	            }
 	        },
-	        "tradingLimit",
+
 	        "name",
+	        	        "tradingLimit",
 	        "invested",
 	        {
                 dataField: "rep",

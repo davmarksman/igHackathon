@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta charset="UTF-8">
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  
@@ -15,7 +16,8 @@
 
 </head>
 <body>
-	<h1>Hello, world! dude</h1>
+	<h1>Trade</h1>
+    <h3>Your Trading Limit on this Pool is £300</h3>
 
 	<div id="gridContainer">
 	</div>
@@ -30,25 +32,9 @@
                 </div>
                 <div class="modal-body">
 
-                    <div class="ticket-panel">
-
-                        <input type="hidden" id="trade_direction" />
-                        <div class="ticket-buttons">
-                            <input type="hidden" id="trade_bid" />
-                            <button id="sell_button" class="btn btn-large btn-primary glowing-border-off" type="button">
-                                Sell <span id="ticket_sell_price">-</span>
-                            </button>
-
-                            &nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;
-
-                            <input type="hidden" id="trade_offer" />
-                            <button id="buy_button" class="btn btn-large btn-danger glowing-border-off" type="button">
-                                Buy <span id="ticket_buy_price">-</span>
-                            </button>
-                        </div>
-
-                        <div class="ticket-field">
+                                        <div class="ticket-panel">
+                    
+                                                  <div class="ticket-field">
                             <input type="hidden" id="trade_epic" />
                             <input type="hidden" id="trade_expiry" />
                             <span class="ticket-field-label">Size</span> <input id="trade_size" type="text" value="1" />
@@ -65,12 +51,52 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <button id="place_trade_button" type="button" class="btn btn-success">Place Trade</button>
-                </div>
+
+
+                       <input type="hidden" id="trade_direction" />
+                        <div class="ticket-buttons">
+
+                            <input type="hidden" id="trade_bid" />
+                            <button id="sell_button" class="btn btn-large btn-success glowing-border-off" type="button">
+                                Bid <span id="ticket_sell_price">-</span>
+                            </button>
+
+                            &nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;
+                            
+                      
+
+                            <input type="hidden" id="trade_offer" />
+                            <button id="buy_button" class="btn btn-large btn-danger glowing-border-off" type="button">
+                                Offer <span id="ticket_buy_price">-</span>
+                            </button>
+
+                            <button type="button" class="btn btn-large btn-default cancel_button" data-dismiss="modal">Cancel</button>
+                        </div>
+               </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+                <!-- Result Modal -->
+        <div class="modal fade" id="joinModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Order placed</h4>
+              </div>
+              <div class="modal-body">
+                <p id="txtResult" class="modalText"></p>
+              </div>
+              <div class="modal-footer">
+                <button id="btnModalTrade" type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 </body>
 </html>
