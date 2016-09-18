@@ -121,7 +121,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Our Team</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -149,17 +149,12 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                           <div class="circle-avatar" style="background-image:url(http://placekitten.com/g/400/200)">
-       
-        </div>
-                            </span>
+                            <div class="service-item"><img src="img/149384_10153342545115995_2373702498059190797_n.jpg" width="99" height="112" alt=""/>
                                 <h4>
                                     <strong>Service Name</strong>
-                                </h4>
+                              </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                             </div>
+                          </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
