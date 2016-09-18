@@ -141,11 +141,11 @@
                           </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item"><img src="img/AAEAAQAAAAAAAAhcAAAAJDllMTIwM2EzLWY1ZTEtNGM3ZC1iMjg1LTFjMWIzOWJjMWNkYw.jpg" width="99" height="112" alt=""/>
+                            <div class="service-item"><img src="img/123q.jpg" width="73" height="112" alt=""/>
                                 <h4>
-                                    <strong>Lincoln Dauda</strong>
+                                    <strong>Martin Maramba</strong>
                               </h4>
-                                <p>Retail Day Trader</p>
+                                <p>Business Developer</p>
                           </div>
                         </div>
                         
