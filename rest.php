@@ -146,5 +146,7 @@ if ($mysqli->connect_errno) {
 ?>
 
 rest123
+<img src="https://graph.facebook.com/{userID}?fields=picture.width(720).height(720)" alt="Smiley face">
+
 </body>
 </html>
