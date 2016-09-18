@@ -11,7 +11,6 @@ var gridDataSource = new DevExpress.data.ArrayStore({
 })
 
 $(function(){
-	$("#myModal").modal("show");
 
 	$('#place_trade_button').click(function () {
 	   placeTrade();
@@ -151,24 +150,6 @@ function createPopupLink(container, text, row) {
     return element;
 }
 
-// Using YQL and JSONP
-//function jasonp(){
-//	$.ajax({
-//	    url: "http://globalmaster.xignite.com/xglobalmaster.json/GetMasterByExchange?Exchange=XNAS&StartSymbol=A&EndSymbol=B&InstrumentClass=Stock&AsOfDate=9/15/2016&_callback=callbackFn",
-//	 
-//	    // The name of the callback parameter, as specified by the YQL service
-//	    jsonp: "callbackFn",
-//	 
-//	    // Tell jQuery we're expecting JSONP
-//	    dataType: "jsonp",
-//	 
-//	    // Work with the response
-//	    success: function( response ) {
-//	        console.log( response ); // server response
-//	    }
-//	});
-//}
-
 /*
  * Function to create an OTC position
  */
@@ -186,26 +167,6 @@ function placeTrade() {
 	   tradeBid : $('#trade_bid').val(),
 	   tradeOffer:  $('#trade_offer').val(),
 	   direction: $('#trade_direction').val(),
-	}
-
-   var trade2 = {
-	    "epic": "CS.D.BITCOIN.TODAY.IP",
-	    "expiry": "DFB",
-	    "direction": "BUY",
-	    "size": "0.005",
-	    "orderType": "MARKET",
-	    "timeInForce": null,
-	    "level": null,
-	    "guaranteedStop": "false",
-	    "stopLevel": null,
-	    "stopDistance": null,
-	    "trailingStop": null,
-	    "trailingStopIncrement": null,
-	    "forceOpen": "false",
-	    "limitLevel": null,
-	    "limitDistance": null,
-	    "quoteId": null,
-	    "currencyCode": "GBP"
 	}
 
    // Create a POST request to /positions/otc
@@ -228,10 +189,10 @@ function placeTrade() {
    // Set up the request body
    var bodyParams = {};
    bodyParams["currencyCode"] = "GBP";
-   bodyParams["epic"] = trade2.epic;
-   bodyParams["expiry"] = trade2.expiry;
-   bodyParams["direction"] = trade2.direction; //(direction == "+" ? "BUY" : "SELL");
-   bodyParams["size"] = trade2.size;
+   bodyParams["epic"] = trade.epic;
+   bodyParams["expiry"] = trade.expiry;
+   bodyParams["direction"] = trade.direction; //(direction == "+" ? "BUY" : "SELL");
+   bodyParams["size"] = trade.size;
    bodyParams["forceOpen"] = false;
    bodyParams["guaranteedStop"] = false;
    bodyParams["orderType"] = "MARKET";
@@ -274,5 +235,3 @@ function placeTrade() {
       console.log(resultData);
    }
 }
-
-

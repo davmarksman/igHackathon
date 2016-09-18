@@ -1,6 +1,5 @@
 var users = []
 
-
 users = [ 
 {
 	userId: 1,

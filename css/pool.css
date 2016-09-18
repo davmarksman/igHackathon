@@ -31,46 +31,50 @@
     padding-right: 0px;
     padding-top: 0px;
 }
-    .bottomLeftHeader {
-        left: 5px;
-        bottom: 5px;
-        position: absolute;
-        display: block;
-        color:white; 
-        font-size:26px; 
-        font-style:normal; 
-        font-weight:200; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
-    }
-   .metricvalue {
-        display: inline ;
-        vertical-align: middle;
-        color:white; 
-        font-size:60px; 
-        font-style:normal; 
-        font-weight:400;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    h2 {
-        text-align:center;
-        color:white; 
-        font-size:35px; 
-        font-style:normal; 
-        font-weight:200; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
-    h3 {      
-        color:white; 
-        font-size:26px; 
-        font-style:normal; 
-        font-weight:200; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
-    }
-    p {
-        text-align:center;
-        color:white; 
-        font-size:20px; 
-        font-style:normal; 
-        font-weight:200; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
+.bottomLeftHeader {
+    left: 5px;
+    bottom: 5px;
+    position: absolute;
+    display: block;
+    color:white; 
+    font-size:26px; 
+    font-style:normal; 
+    font-weight:200; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
+}
+.metricvalue {
+    display: inline ;
+    vertical-align: middle;
+    color:white; 
+    font-size:60px; 
+    font-style:normal; 
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    text-align:center;
+    color:white; 
+    font-size:35px; 
+    font-style:normal; 
+    font-weight:200; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h3 {      
+    color:white; 
+    font-size:26px; 
+    font-style:normal; 
+    font-weight:200; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
+}
+p {
+    text-align:center;
+    color:white; 
+    font-size:20px; 
+    font-style:normal; 
+    font-weight:200; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.modalText{
+	color:black;
+}
