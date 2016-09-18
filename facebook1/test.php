@@ -18,11 +18,11 @@ use Facebook\HttpClients\FacebookHttpable;
 // start session
 
 // init app with app id and secret
-FacebookSession::setDefaultApplication( '642963862396213','856379884d66aeeb6bb610b7b95c8550' );
+FacebookSession::setDefaultApplication( '301809796851119','a974367187e255a3714f638ed377f158' );
 
 // login helper with redirect_uri
 
-    $helper = new FacebookRedirectLoginHelper('http://demos.krizna.com/test.php' );
+    $helper = new FacebookRedirectLoginHelper(https://millistones.herokuapp.com/facebook1/test.php' );
 
 try {
   $session = $helper->getSessionFromRedirect();
