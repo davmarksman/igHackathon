@@ -4,7 +4,31 @@ var apiKey = "162d2c801b4583e76cee168cfda2ba26df25e159";
 var client_token ="7c68b6b7f0dc2cb544cbf7e61242431deb3083ed165a1501eb1722c2cc45095101111";
 var account_token = "4e95a4423139c4b91e04180d24a90496ed079ac08ea7c705a612b183af08fb7d01111";
 
-var dataArray = []
+var dataArray = [
+	{
+		instrument: {
+			name: "EUR-GBP", 
+			expiry: "12",
+			epic: "CCS.D.EURGBP.TODAY.IP"
+		},
+		snapshot:{
+			offer: 2.5,
+			bid: 2.7
+		}
+	},
+	{
+		instrument: {
+			name: "Bitcoin", 
+			expiry: "12",
+			epic: "CS.D.BITCOIN.TODAY.IP"
+		},
+		snapshot:{
+			offer: 1.3,
+			bid: 1.4
+		}
+	}
+];
+
 
 var gridDataSource = new DevExpress.data.ArrayStore({
 	data: dataArray
